@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/iconfont/iconfont.css'
+
+//导入jquery
+import $ from 'jquery'
 
 Vue.config.productionTip = false
 
@@ -10,3 +14,4 @@ new Vue({
   router,
   render: h => h(App)
 })
+

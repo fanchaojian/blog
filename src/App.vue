@@ -4,19 +4,69 @@
   </div>
 </template>
 
+
 <script>
+
 export default {
   name: 'App'
 }
+
+
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin:0 ;
+  padding:0 ;
+}
+
+	html,body {
+		margin:0 ;
+		padding:0 ;
+		font-size:14px;
+	}
+	body {
+		width:100%; 
+		height:100%; 
+		background-color:white ; 
+	}
+	.ftf1 {
+		font-family: 宋体;
+	}	
+
+	.ftf2 {
+		font-family:Verdana,宋体,sans-serif ;
+	}
+	.ftf3 {
+		font-family:楷体 ; 
+	}
+	.ftf4 {
+		font-family:微软雅黑,黑体;
+	}
+	.fs1 {
+		font-size:12px;
+	}
+	.fs2 {
+		font-size:14px;
+	}
+	.fs3 {
+		font-size:16px;
+	}
+	
+	.fc1 {
+		color:black ; 
+	}
+	.fc2 {
+		color:#FF7F50 ;
+	}
+	.fc3 {
+		color:#87CEFA ; 
+  }
+  p {
+    margin:0 0 10px;
+  }
 </style>
