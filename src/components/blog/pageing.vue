@@ -34,19 +34,22 @@ export default {
 </script>
 
 <style scoped>
-.paging {
+
+	.paging {
 		list-style:none;
 		margin:0;
-		padding:0 ;
+		padding:0;
 	}
 	
-	.paging li {
-		float:left;
-		font-size:14px;
-		padding:5px 15px 5px 15px;
-		cursor:pointer;
-	}
 	.active {
 		color:#87CEFA ; 
 	}
+	.paging li {
+		float:left;
+		font-size:13px;
+		padding:5px 20px 5px 15px;
+		cursor:pointer;
+		
+	}
+	
 </style>

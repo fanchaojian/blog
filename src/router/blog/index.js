@@ -1,4 +1,4 @@
-import header from '@/components/blog/header'
+import myheader from '@/components/blog/myheader'
 import top from '@/components/blog/top'
 import closeNew from '@/components/blog/closeNew'  //最近更新
 import latestArticles from '@/components/blog/latestArticles'  //最新文章
@@ -11,54 +11,55 @@ import guestbook from '@/components/blog/guestbook' //留言板
 import pageing from '@/components/blog/pageing'  //分页组件
 import expression from '@/components/blog/expression'  //表情 组件
 
+
 //导出路由数组
 export let blog = [
   {
-    path:'/top',
+    path:'top',  
     name:'top',
     component:top,
   },{
-    path:'/header',
-    name:'header',
-    component:header
+    path:'myheader',
+    name:'myheader',
+    component:myheader
   },{
-    path:'/closeNew',
+    path:'closeNew',
     name:'closeNew',
     component:closeNew
   },{
-    path:'/latestArticles',
+    path:'latestArticles',
     name:'latestArticles',
     component:latestArticles
   },{
-    path:'/labelClassify',
+    path:'labelClassify',
     name:'labelClassify',
     component:labelClassify
   },{
-    path:'/articleItem',
+    path:'articleItem',
     name:'articleItem',
     component:articleItem
   },{
-    path:'/essay',
+    path:'essay',
     name:'essay',
     component:essay
   },{
-    path:'/archive',
+    path:'archive',
     name:'archive',
     component:archive
   },{
-    path:'/labels',
+    path:'labels',
     name:'labels',
     component:labels
   },{
-    path:'/guestbook',
+    path:'guestbook',
     name:'guestbook',
     component:guestbook
   },{
-    path:'/pageing',
+    path:'pageing',
     name:'pageing',
     component:pageing
   },{
-    path:'/expression',
+    path:'expression',
     name:'expression',
     component:expression
   }

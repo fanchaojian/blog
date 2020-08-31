@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import helloworld from '@/components/helloworld'
+import home from '@/views/home'
 
 //blog
 import {blog} from "@/router/blog"
@@ -9,12 +9,15 @@ Vue.use(Router)
 let routers = [
   {
     path:"/",
-    component:helloworld
+    component:home,
+    children:blog,
+    redirect:'/articleItem'
   },
 ];
 
 //进行路由整合
-routers = routers.concat(blog) ; 
 export default new Router({
-  routes: routers
+  routes: routers,
+  mode:'history',
+  
 })

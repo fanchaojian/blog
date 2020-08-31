@@ -1,13 +1,49 @@
 <!--博客文章列表 组件-->
 <template>
-    <!--blog最新文章显示界面-->
+    
 	<div>
-		<div style="width:100%; ">
-            <p style=" color:#337ab7;">
+		<!--blog最新文章显示界面-->
+		<div style="width:100%; margin-bottom:50px;">
+            <p style=" color:#337ab7; padding-top:15px;">
                 最新文章<span style="color:#aaa; padding-left:5px;">New Article</span>
             </p>
 			
+			
 			<!-- 文章列表 -->
+			<div class="blogItem">
+				<!--文章图片-->
+				<div class="blogimg">
+					<img src="../../assets/imgs/topimg4.jpg"/>
+				</div> 
+				<!-- 文章标题/预览 -->
+				<div style="width:70%; height:100%;  float:left; ">
+					<div style="width:100%; height:30px; ">
+						<span class="blogTitle">这个秋天不一样，来北京的第一个秋天，有点冷</span>
+					</div>
+					<div style="width:100%; height:60px; ">
+						<span style="line-height:1.5em; font-size:12px;">今年是我来北京的第一个年头，第一次经历了北京的秋天。我和朋友去了故宫，在收款方式开飞机上开放时间恶如头儿突围和人家玩而已。</span>
+					</div>
+					
+					<div style="width:100%; height:30px; ">
+						<span class="icon-time-circle iconfont circle_icon" ></span>
+						<span class="fs1" style="padding-right:20px;">2020-06-07</span>
+							
+						<span class="icon-comment iconfont circle_icon" ></span>
+						<span class="fs1" style="padding-right:20px;">0</span>
+							
+						<span class="icon-eye iconfont circle_icon" s></span>
+						<span class="fs1" style="padding-right:20px; ">294</span>
+						
+						<span class="icon-like iconfont circle_icon"></span>
+						<span class="fs1" style="padding-right:20px;">121</span>
+							
+						<span style="float:right; display:inlin-black;">
+							<span class="icon-tag-fill iconfont circle_icon" style="color:#FF7F50;"></span>
+							<span class="fs2">Linux</span>
+						</span>
+					</div>
+				</div>
+			</div>
 			<div class="blogItem">
 				<!--文章图片-->
 				<div class="blogimg">
@@ -46,17 +82,25 @@
 			
 		</div>
 		
+		<!--分页组件-->
+		<pageing />
 	</div>
 </template>
 
 <script>
+
+import pageing from '@/components/blog/pageing'  //分页组件
+
 export default {
     name:"articleItem",
     data() {
         return {
             
         }
-    },
+	},
+	components:{
+		pageing,
+	},
 }
 </script>
 

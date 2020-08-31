@@ -21,55 +21,55 @@
 			<!--菜单显示位置-->
 			<div class="menu_box" style="">
 				<div style="padding-left:10px;">
-					<div class="top_menu fw fc2"><span @click="showarea('focus_area')">关注</span></div>
+					<div class="top_menu fw fc2" @click="showarea('focus_area')">关注</div>
 					<div class="top_menu_split">|</div>
-					<div class="top_menu fw fc2"><span @click="showarea('owner_area')">关于博主</span></div>
+					<div class="top_menu fw fc2" @click="showarea('owner_area')">关于博主</div>
 					<div class="top_menu_split">|</div>
-					<div class="top_menu fw fc2"><span @click="showarea('about_site')">本站简介</span></div>
+					<div class="top_menu fw fc2" @click="showarea('about_site')">本站简介</div>
 				</div>
 			</div>
 			
 			<!-- 扩展资料显示区域显示框 -->
 			<div style="width:30%; height:250px; padding-left:15px;  float:right; position:relative;">
 			
-      	<!-- "关于博主"显示区域 -->
-        <transition>
-				<div v-show="owner_area" id="owner_area" class="myarea">
-					<div id="" style="display:;">
-						<div>
-							<p class="title" style="">
-								<img src="../../assets/imgs/introduce.png" width="12" height="12"/>
-								<span>站长简介</span>
-							</p>
-							<p class="fs1">昵称：南国晚秋</p>
-							<p class="fs1">职业：全栈开发工程师、Salesforce开发工程师</p>
-							<p class="fs1">邮箱：1948556024@qq.com</p>
-							<p class="fs1">籍贯：四川宜宾</p>
-							<p class="fs1">爱好：写字，拍照，IT数码，科技，玩游戏。</p>
-							<p class="fs1">格言：若成为一只小鸟，则无法知道雄鹰眼里的的天空。</p>
+				<!-- "关于博主"显示区域 -->
+				<transition>
+					<div v-show="owner_area" id="owner_area" class="myarea">
+						<div id="" style="display:;">
+							<div>
+								<p class="title" style="">
+									<img src="../../assets/imgs/introduce.png" width="12" height="12"/>
+									<span>站长简介</span>
+								</p>
+								<p class="fs1">昵称：南国晚秋</p>
+								<p class="fs1">职业：全栈开发工程师、Salesforce开发工程师</p>
+								<p class="fs1">邮箱：1948556024@qq.com</p>
+								<p class="fs1">籍贯：四川宜宾</p>
+								<p class="fs1">爱好：写字，拍照，IT数码，科技，玩游戏。</p>
+								<p class="fs1">格言：若成为一只小鸟，则无法知道雄鹰眼里的的天空。</p>
+							</div>
+							<div id="showmore" class="fc2" style="padding-top:0;">查看更多...</div>
 						</div>
-						<div id="showmore" class="fc2" style="padding-top:0;">查看更多...</div>
 					</div>
-				</div>
 				</transition>
 
 				<!-- "本站简介"显示区域 -->
-        <transition>
-				<div v-show="about_site" id="about_site" class="myarea">
-					<p class="title" style="">
-						<img src="../../assets/imgs/introduce.png" width="12" height="12"/>
-						<span>网站简介</span>
-					</p>
-					<p class="fs1">前端：CSS+HTML5+VUE</p>
-					<p class="fs1">后端：java/Struts2+Hibernate+Spring/MySql</p>
-					<div id="showmore" class="fc2" style="padding-top:0;">查看更多...</div>
-				</div>
+				<transition>
+					<div v-show="about_site" id="about_site" class="myarea">
+						<p class="title" style="">
+							<img src="../../assets/imgs/introduce.png" width="12" height="12"/>
+							<span>网站简介</span>
+						</p>
+						<p class="fs1">前端：CSS+HTML5+VUE</p>
+						<p class="fs1">后端：java/Struts2+Hibernate+Spring/MySql</p>
+						<div id="showmore" class="fc2" style="padding-top:0;">查看更多...</div>
+					</div>
 				</transition>
-				
-				 <!-- "关注博主"显示区域 -->
-         <transition>
-				  <div v-show="focus_area" id="focus_area" class="myarea">
-					 <div id="" style="display: ; float:left;">
+						
+				<!-- "关注博主"显示区域 -->
+				<transition>
+					<div v-show="focus_area" id="focus_area" class="myarea" >
+						<div id="" style="display: ; float:left;">
 						<div id="focus_box">
 							<div id="focus_title_box">
 								<span class="title" style="line-height:30px; padding-left:10px;">关注我<span style="color:#bbb;">&nbsp;Focus Me</span></span>
@@ -98,9 +98,9 @@
 								<img src="../../assets/imgs/qq_QR.png" title="QQ" width="100%" height="100%" style="vertical-align:bottom;" />
 							</div>
 						</div>
-					 </div>
-				  </div>
-        </transition>
+						</div>
+					</div>
+				</transition>
 			</div>
 			
 		</div>
@@ -163,7 +163,10 @@ export default {
 		height:250px;
 	}
 	.top_box {
-		width:1100px; height:100%; margin:0 auto;  position:relative; 
+		width:1100px; 
+		height:100%; 
+		margin:0 auto;  
+		position:relative; 
 		border-bottom:0.5px solid #87CEFA ;  
 		background-image:url(../../assets/imgs/topimg15.jpg) ;  
 		background-repeat:round;
@@ -171,11 +174,11 @@ export default {
 	}
 	
 	.menu_box {
-		top: 52%; left:113px; width: 244px; height: 50px; position: absolute;
+		top: 54%; left:113px; width: 244px; height: 30px; position: absolute;
 	}
 	
 	.top_menu {
-		float:left; color:FF7F50; font-size:14px; font-family:宋体;  line-height:50px; 
+		float:left; color:FF7F50; font-size:14px; font-family:宋体;  line-height:30px; 
 		transition:all 0.5s ;
 	}
 	
@@ -190,7 +193,7 @@ export default {
 
 	
 	.top_menu_split {
-		float:left; font-size:14px; width:20px; text-align:center; line-height:50px;
+		float:left; font-size:14px; width:20px; text-align:center; line-height:30px;
 	}
 	
 	.fw {
@@ -254,6 +257,6 @@ export default {
     height:100%;
     position:absolute; 
     top:0; 
-    left:0;
+    left:15px;
   }
 </style>

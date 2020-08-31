@@ -2,7 +2,7 @@
 <template>
     <div style="width:100%;">
         <!-- 最近更细动态 -->
-			<div style="width:100%; padding-bottom:15px;;">
+			<div style="width:100%; padding-bottom:15px; padding-top:15px;">
 				<p style=" color:#337ab7; border-bottom:1px solid #ccc;">最近更新<span style="color:#aaa; padding-left:5px;">Close New</span></p>
 				<p style="padding-top:10px; font-size:12px;">
 					<span>文章：</span>

@@ -1,10 +1,10 @@
 <!--标签管理 组件-->
 <template>
     <div style="width:100%;">
-		<p style=" color:#337ab7;">
+		<p style=" color:#337ab7; padding-top:15px;">
 			标签整理<span style="color:#aaa; padding-left:5px;">Labels</span>
 		</p>
-		<div style="width:100%; height:150px; padding-top:5px;">
+		<div style="width:100%; height:150px;">
 			
 			<ul id="LabelClassify">
 				<li style="background-color:#3399CC;">CSS3(4)</li>

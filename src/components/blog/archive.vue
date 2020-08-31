@@ -1,7 +1,7 @@
 <!--文章归档 组件-->
 <template>
     <div style="width:100%;">
-        <p style=" color:#337ab7;">
+        <p style=" color:#337ab7; padding-top:15px;">
 			文章归档<span style="color:#aaa; padding-left:5px;">Archive</span>
 		</p>
 		<!--年份标题-->

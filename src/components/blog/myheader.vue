@@ -20,13 +20,13 @@
 			
 			<div id="menu">
 				<ul>
-					<li><span>首页</span></li>
-					<li><span>程序人生</span></li>
-					<li><span>心情随笔</span></li>
-					<li><span>生活细闻</span></li>
-					<li><span>旧时光</span></li>
-					<li><span>标签夹</span></li>
-					<li><span>留言板</span></li>
+					<li><router-link to="/articleItem">首页</router-link></li>
+					<li><router-link to="/articleItem">程序人生</router-link></li>
+					<li><router-link to="/essay">心情随笔</router-link></li>
+					<li><router-link to="/articleItem">生活细闻</router-link></li>
+					<li><router-link to="/archive">旧时光</router-link></li>
+					<li><router-link to="/labels">标签夹</router-link></li>
+					<li><router-link to="/guestbook">留言板</router-link></li>
 				</ul>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'header',
+  name: 'myheader',
   data () {
     return {
         msg:"这是我的top组件"
@@ -71,7 +71,7 @@ export default {
 	}
 	#search {
 		width:150px; 
-		height:20px; 
+		height:23px; 
 		border:1px solid #ccc; 
 		border-radius:5px;
 		display:block; float:left; 
@@ -127,10 +127,13 @@ export default {
 		font-family:宋体;
 		display:inline-block ;
 		text-align:center;
-		color:#FF7F50 ;
 		font-weight: 700; 
 		transition:all 0.5s ;
 		
+	}
+	li a {
+		color:#FF7F50 ;
+		text-decoration: none;
 	}
 	
 	#menu > ul >li:hover {
