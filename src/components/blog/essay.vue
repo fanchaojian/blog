@@ -2,7 +2,7 @@
 <template>
     <div>
 		<div style="width:100%; float:left;">
-             <p style=" color:#337ab7;">
+            <p style=" color:#337ab7;">
                 心情随笔<span style="color:#aaa; padding-left:5px;">essay</span>
             </p>
 			

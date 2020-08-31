@@ -49,7 +49,6 @@
 				<li><img src="../../assets/emoji/default/angry.png"/></li>
 				<li><img src="../../assets/emoji/default/confused.png"/></li>
 				<li><img src="../../assets/emoji/default/astonished.png"/></li>
-				
 			</ul>
 			
 			<ul id="others" class="expression" style="display:none;">

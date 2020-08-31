@@ -3,7 +3,7 @@ import top from '@/components/blog/top'
 import closeNew from '@/components/blog/closeNew'  //最近更新
 import latestArticles from '@/components/blog/latestArticles'  //最新文章
 import labelClassify from '@/components/blog/labelClassify'  //标签分类  快速标签
-import article from '@/components/blog/article'  //博客文章列表展示
+import articleItem from '@/components/blog/articleItem'  //博客文章列表展示
 import essay from '@/components/blog/essay'  //心情随笔
 import archive from '@/components/blog/archive' //文章归档
 import labels from '@/components/blog/labels'  //标签夹
@@ -34,9 +34,9 @@ export let blog = [
     name:'labelClassify',
     component:labelClassify
   },{
-    path:'/article',
-    name:'article',
-    component:article
+    path:'/articleItem',
+    name:'articleItem',
+    component:articleItem
   },{
     path:'/essay',
     name:'essay',

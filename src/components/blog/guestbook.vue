@@ -5,47 +5,11 @@
             <span style="color:#aaa; padding-left:5px;">Guestbook</span>
         </p>
         
-        <!--留言模板-->
-        <div id="" style="margin-top:10px;">
-            <p class="title" style="">
-                <span class="icon-edit-fill iconfont color_red font_14"></span>
-                <span class="font_14">来都来了，给个留言再走吧 ^~^。</span>
-            </p>
-            <div class="input_item">
-                <input class="myinput" type="text" placeholder="邮箱" style="height:35px; width:250px;">
-                <span style="color:#FF7F50;line-height:35px; ">(必填)</span>
-            </div>
-            
-            <div class="input_item">
-                <input class="myinput" type="text"  placeholder="你的昵称" style="height:35px; width:250px;">
-                <span style="color:#FF7F50;line-height:35px; ">(必填)</span>
-            </div>
-            
-            <div class="input_item">
-                <textarea class="myinput box"  placeholder="说点什么吧" rows="5" style="width:400px;"></textarea>
-                
-            </div>
-            
-            <div class="input_item">
-                <p style="">证明你不是机器人，谢谢。</p>
-                <span>12+9=</span> 
-                <input class="myinput" type="text" />
-            </div>
-            
-            <span><input style="vertical-align:middle; height:12px; width:12px;" type="checkbox" name="checkbox" checked="checked" /><label style="vertical-align:middle; ">邮件回复</label></span>&nbsp;&nbsp;&nbsp;
-            
-            <span><input style="vertical-align:middle; height:12px; width:12px;" type="checkbox" name="checkbox" checked="checked" /><label style="vertical-align:middle; ">保存信息</label></span>
-            
-            <br />
-            <p>填写邮箱和昵称并点击按钮将自动注册为站点用户，评论和回复时将不用再注册。</p>
-            <div type="button" class="mybtn discuss_btn" style="margin-top:10px;"><span>提交留言/注册账户</span></div>
-            
-        </div>
         
         <!--热门评论-->
         <!--=========================================热门评论开始==========================================-->
-        <div style="width:100%; margin-top:50px;">
-            <div style="width:100%; height:32px; border-bottom:2px solid #87CEFA;">
+        <div style="width:100%; margin-top:10px; height:auto;">
+            <div style="width:100%; height:32px;">
                 <span class="iconfont icon-fire-fill color_red font_14"></span>
                 <span class="discuss_tag">热门评论</span>
                 <span class="discuss_tag fl_right">
@@ -201,7 +165,44 @@
         </div>
         <!--================================================热门评论结束=================================================-->
         
+        <!--这儿放置分页组件-->
 
+        <!--留言模板-->
+        <div id="" style="margin-top:10px;  border-top:1px solid #87CEFA; float:left; width:100%; margin-top:50px; padding-top:15px;">
+            <p class="title" style="">
+                <span class="icon-edit-square iconfont color_red font_14"></span>
+                <span class="font_14">来都来了，给个留言再走吧 ^~^。</span>
+            </p>
+            <div class="input_item">
+                <input class="myinput" type="text" placeholder="邮箱" style="height:35px; width:250px;">
+                <span style="color:#FF7F50;line-height:35px; ">(必填)</span>
+            </div>
+            
+            <div class="input_item">
+                <input class="myinput" type="text"  placeholder="你的昵称" style="height:35px; width:250px;">
+                <span style="color:#FF7F50;line-height:35px; ">(必填)</span>
+            </div>
+            
+            <div class="input_item">
+                <textarea class="myinput box"  placeholder="说点什么吧" rows="5" style="width:400px;"></textarea>
+                
+            </div>
+            
+            <div class="input_item">
+                <p style="">证明你不是机器人，谢谢。</p>
+                <span>12+9=</span> 
+                <input class="myinput" type="text" />
+            </div>
+            
+            <span><input style="vertical-align:middle; height:12px; width:12px;" type="checkbox" name="checkbox" checked="checked" /><label style="vertical-align:middle; ">邮件回复</label></span>&nbsp;&nbsp;&nbsp;
+            
+            <span><input style="vertical-align:middle; height:12px; width:12px;" type="checkbox" name="checkbox" checked="checked" /><label style="vertical-align:middle; ">保存信息</label></span>
+            
+            <br />
+            <p>填写邮箱和昵称并点击按钮将自动注册为站点用户，评论和回复时将不用再注册。</p>
+            <div type="button" class="mybtn discuss_btn" style="margin-top:10px;"><span>提交留言/注册账户</span></div>
+            
+        </div>
         
     </div>
 </template>
