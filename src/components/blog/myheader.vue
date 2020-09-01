@@ -131,10 +131,14 @@ export default {
 		transition:all 0.5s ;
 		
 	}
+	
 	li a {
 		color:#FF7F50 ;
 		text-decoration: none;
 	}
+	.router-link-active {
+	  color:#000000!important;
+  	}
 	
 	#menu > ul >li:hover {
 		cursor:pointer;

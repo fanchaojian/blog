@@ -89,12 +89,12 @@
 									<p class="fs1" style="padding-top:5px;">GitHub</p>
 								</div>
 								<div class="focus_list">
-									<div class="focus_item"><img src="../../assets/imgs/weixin.png"/></div>
+									<div class="focus_item"><img src="../../assets/imgs/wechat.png"/></div>
 									<p class="fs1" style="padding-top:5px;">公众号</p>
 								</div>
 							</div>
 							
-							<div style="width:120px; height:120px; border:1px solid #ddd; margin-left:10px; box-shadow:0 0 10px 3px #ddd; padding:10px;">
+							<div style="display:none; width:120px; height:120px; border:1px solid #ddd; margin-left:10px; box-shadow:0 0 10px 3px #ddd; padding:10px;">
 								<img src="../../assets/imgs/qq_QR.png" title="QQ" width="100%" height="100%" style="vertical-align:bottom;" />
 							</div>
 						</div>
@@ -240,7 +240,7 @@ export default {
 	}
 	
 	.focus_item {
-		width:39px; height:39px; border-radius:50%; border:1px solid #ccc; margin:0 auto;
+		width:39px; height:39px; border-radius:50%;  margin:0 auto;
 		transition:all 0.25s ;
 	}
   .focus_item img {

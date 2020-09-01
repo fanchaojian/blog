@@ -56,8 +56,6 @@ export default {
         blog_guestbook,
         blog_expression,
         blog_footer
-    },mounted:{
-        
     }
 }
 </script>

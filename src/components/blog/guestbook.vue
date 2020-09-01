@@ -37,14 +37,21 @@
             <span><input style="vertical-align:middle; height:12px; width:12px;" type="checkbox" name="checkbox" checked="checked" /><label style="vertical-align:middle; ">保存信息</label></span>
             
             <br />
-            <div type="button" class="mybtn discuss_btn" style="margin-top:10px;"><span>提交留言</span></div>
-            
+            <p>填写邮箱、昵称，点击按钮将自动为您注册或登录。</p>
+			<div type="button" class="mybtn discuss_btn" style="margin-top:10px;"><span>提交留言/注册账户</span></div>
+            <p style="margin-top:30px; margin-bottom:5px;">你可以使用第三方登录</p>
+            <span class="login" style="padding-left:0px;"><img src="../../assets/imgs/qq2.png" /></span>
+            <span class="login"><img src="../../assets/imgs/weibo2.png" /></span>
+            <span class="login"><img src="../../assets/imgs/wechat.png"  /></span>
         </div>
+
+
+
         
         <!--热门评论-->
         <!--=========================================热门评论开始==========================================-->
-        <div style="width:100%; margin-top:10px; height:auto;  border-top:1px solid #87CEFA; margin-top:50px;">
-            <div style="width:100%; height:32px;">
+        <div style="width:100%; margin-top:10px; height:auto;   margin-top:50px;">
+            <div style="width:100%; height:32px; border-bottom:1px solid #87CEFA;">
                 <span class="iconfont icon-fire-fill color_red font_14"></span>
                 <span class="discuss_tag">热门评论</span>
                 <span class="discuss_tag fl_right">
@@ -315,7 +322,6 @@ export default {
 		border-radius:5px;
 		border:1px solid #ccc;
 		text-align:center;
-		margin-left:10px;
 	}
 	.discuss_btn:hover {
 		cursor:pointer ; 
@@ -327,7 +333,7 @@ export default {
 		line-height:25px;
 	}
 	.mybtn {
-		width:150px;
+		width:200px;
 		color:#FF7F50; 
 	}
 	.mybtn:hover {
@@ -352,7 +358,14 @@ export default {
 	.discuss_tag {
 		line-height:32px; font-size:14px; display:inline-black;
 	}
-	
+	.login {
+        padding:10px;
+    }
+    .login img {
+        vertical-align: bottom;
+        width:25px;
+        height: 25px;
+    }
 	.reply {
 		padding-left:15px; 
 	}
