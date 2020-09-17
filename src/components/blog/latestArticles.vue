@@ -31,8 +31,9 @@ export default {
 <style scoped>
 /*最新文章列表 -- 快捷栏*/
 	#LatestArticle_item {
+        padding:0 ;
 		font-size:12px;
-		padding-left:15px;
+        list-style: none;
 	}
 	
 	#LatestArticle_item li {
@@ -43,7 +44,6 @@ export default {
 	#LatestArticle_item li:hover {
 		cursor:pointer;
 		text-decoration:underline ;
-		transform:translateX(20px) ;
 		 -moz-transform:translateX(20px) ;
 	}
 </style>

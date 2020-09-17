@@ -70,10 +70,5 @@ body {
     margin:0 0 10px;
   } 
 
-  .router-link-active {
-	  color:#87CEFA;
-  }
-  .router-link-exact-active {
-	  color:#87CEFA;
-  }
+  
 </style>

@@ -7,26 +7,26 @@
 		<div style="width:100%; height:150px;">
 			
 			<ul id="LabelClassify">
-				<li style="background-color:#3399CC;">CSS3(4)</li>
-				<li style="background-color:#337ab7;">HTML5(4)</li>
-				<li style="background-color:#339933;">Linux(15)</li>
-				<li style="background-color:#FF6347;">Mysql(10)</li>
-				<li style="background-color:#66CC99;">jQuery(10)</li>
-				<li style="background-color:#FF9966;">Tomcat(2)</li>
-				<li style="background-color:#3399CC;">生活(20)</li>
-				<li style="background-color:#FF6347;">感想(12)</li>
-				<li style="background-color:#339933;">VUE</li>
-				<li style="background-color:#FF7F50;">java(40)</li>
-				<li style="background-color:#337ab7;">radis(4)</li>
-				<li style="background-color:#FF6347;">Spring(5)</li>
-				<li style="background-color:#339933;">支付(5)</li>
-				<li style="background-color:#337ab7;">webpack(4)</li>
-				<li style="background-color:#339933;">nodeJS(4)</li>
-				<li style="background-color:#FF9966;">windows(15)</li>
-				<li style="background-color:#FF6347;">装机(10)</li>
-				<li style="background-color:#00BFFF;">照片(10)</li>
-				<li style="background-color:#3399CC;">茶(2)</li>
-				<li style="background-color:#337ab7;">公众号(20)</li>
+				<li style="background-color:#;">CSS3(4)</li>
+				<li style="background-color:#;">HTML5(4)</li>
+				<li style="background-color:#;">Linux(15)</li>
+				<li style="background-color:#;">Mysql(10)</li>
+				<li style="background-color:#;">jQuery(10)</li>
+				<li style="background-color:#;">Tomcat(2)</li>
+				<li style="background-color:#;">生活(20)</li>
+				<li style="background-color:#;">感想(12)</li>
+				<li style="background-color:#;">VUE</li>
+				<li style="background-color:#;">java(40)</li>
+				<li style="background-color:#;">radis(4)</li>
+				<li style="background-color:#;">Spring(5)</li>
+				<li style="background-color:#;">支付(5)</li>
+				<li style="background-color:#;">webpack(4)</li>
+				<li style="background-color:#;">nodeJS(4)</li>
+				<li style="background-color:#;">windows(15)</li>
+				<li style="background-color:#;">装机(10)</li>
+				<li style="background-color:#;">照片(10)</li>
+				<li style="background-color:#;">茶(2)</li>
+				<li style="background-color:#;">公众号(20)</li>
 			</ul>
 		</div>
 		<hr/>
@@ -167,17 +167,16 @@ body {
 		float:left;
 		padding:0px 10px;
 		line-height:25px;
-		border-radius:5px;
+		border-radius:3px;
 		margin:10px 15px 0px 0px;
 		font-size:12px;
-		color:white;
 		transition:all 0.5s ; 
+		border:1px solid #ddd;
 	}
 	
 	#LabelClassify li:hover {
 		cursor:pointer ;
-		border-radius:0px;
-		text-shadow:1px 1px 1px black;
+		background-color:#eee;
 	}
 	
 	.icon-time-circle {

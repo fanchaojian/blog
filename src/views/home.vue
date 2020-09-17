@@ -7,7 +7,7 @@
             <div style="width:1100px; margin:0 auto;">
                     <!--左边-->
                     <div style="width:70%; height:100%;  float:left; padding-right:15px;">
-                        <router-view />
+                        <transition mode="out-in"><router-view /></transition>
                     </div>
                     <!--右边-->
                     <div style="width:30%; height:800px;  float:right; padding-left:15px;"> 
@@ -61,4 +61,14 @@ export default {
 </script>
 
 <style scoped>
+.v-enter,
+ 	.v-leave-to{
+		opacity: 0;
+		transform: translateX(150px);
+	}
+ 
+	.v-enter-active,
+	.v-leave-active{
+		transition: all 0.5s ease;
+	}
 </style>

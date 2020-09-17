@@ -136,10 +136,6 @@ export default {
 		color:#FF7F50 ;
 		text-decoration: none;
 	}
-	.router-link-active {
-	  color:#000000!important;
-  	}
-	
 	#menu > ul >li:hover {
 		cursor:pointer;
 		transform:scale(1.2,1.2 ) ;

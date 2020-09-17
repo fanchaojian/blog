@@ -77,7 +77,7 @@
 							
 							<div id="focus_item_box">
 								<div class="focus_list">
-									<div class="focus_item"><img src="../../assets/imgs/qq.png"  /></div>
+									<div @click="showQR=true" class="focus_item"><img src="../../assets/imgs/qq.png"  /></div>
 									<p class="fs1" style="padding-top:5px;">QQ</p>
 								</div>
 								<div class="focus_list">
@@ -85,17 +85,20 @@
 									<p class="fs1" style="padding-top:5px;">微博</p>
 								</div>
 								<div class="focus_list">
-									<div class="focus_item"><img src="../../assets/imgs/github.png"  /></div>
+									<div class="focus_item"><a href="https://github.com/fanchaojian" target="_blank"><img src="../../assets/imgs/github3.png"  /></a></div>
 									<p class="fs1" style="padding-top:5px;">GitHub</p>
 								</div>
 								<div class="focus_list">
-									<div class="focus_item"><img src="../../assets/imgs/wechat.png"/></div>
+									<div @click="showQR=false" class="focus_item"><img src="../../assets/imgs/wechat2.png"/></div>
 									<p class="fs1" style="padding-top:5px;">公众号</p>
 								</div>
 							</div>
 							
-							<div style="display:none; width:120px; height:120px; border:1px solid #ddd; margin-left:10px; box-shadow:0 0 10px 3px #ddd; padding:10px;">
+							<div v-if="showQR" style="width:120px; height:120px; float:left; margin-left:10px;  border:1px solid #ddd; box-shadow:0 0 10px 3px #ddd; padding:10px;">
 								<img src="../../assets/imgs/qq_QR.png" title="QQ" width="100%" height="100%" style="vertical-align:bottom;" />
+							</div> 
+							<div v-if="!showQR" style="width:120px; height:120px; float:right; margin-right:10px; border:1px solid #ddd; box-shadow:0 0 10px 3px #ddd; padding:10px;">
+								<img src="../../assets/imgs/ggh_QR.png" title="公众号" width="100%" height="100%" style="vertical-align:bottom;" />
 							</div>
 						</div>
 						</div>
@@ -115,7 +118,8 @@ export default {
     return {
       focus_area:true,  //关注博主
       owner_area:false, //关于博主
-      about_site:false, //关于本站
+	  about_site:false, //关于本站
+	  showQR:true
     }
   },methods:{
     showarea(area){

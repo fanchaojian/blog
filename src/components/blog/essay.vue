@@ -48,6 +48,7 @@
 	</div>
 </template>
 
+
 <script>
 export default {
     name:"essay",
