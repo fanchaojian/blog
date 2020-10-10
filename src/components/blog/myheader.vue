@@ -138,11 +138,7 @@ export default {
 	}
 	#menu > ul >li:hover {
 		cursor:pointer;
-		transform:scale(1.2,1.2 ) ;
-		 -moz-transform:scale(1.25,1.25) ;
-		color:black ;
 		text-decoration: underline ;
-		
 	}
 	
 	#menu span{

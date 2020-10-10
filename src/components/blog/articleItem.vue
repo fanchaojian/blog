@@ -308,12 +308,15 @@ export default {
 	}
 	
 	.blogTitle {
-		font-size:15px; font-family:宋体; font-weight:bold; color:#337ab7;
-		transition:all 1s; 
+		font-size:14px;  
+		font-weight:bold; 
+		color:#337ab7;
+		font-family:'Courier New', Courier, monospace;
+		transition:all 0.5s; 
 	}
 	.blogTitle:hover {
 		cursor:pointer;
-		color:black;
+		color:#555;
 		text-decoration:underline ;
 	}
 	.circle_icon {

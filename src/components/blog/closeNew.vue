@@ -13,11 +13,17 @@
 				<p style="font-size:12px;">
 					<span>随笔：</span>
 					<span style="padding-right:5px;">06-08 00:05 </span>
-					<span style="color:white; font-weight:bold; background-color:#FF4500; padding:3px 5px; border-radius:4px;">随笔</span>
+					<span style="color:white; font-weight:bold; background-color:#FF4500; padding:2px 5px; border-radius:3px; font-size:12px;">随笔</span>
 				</p>
 				<p style="font-size:12px;">
 					<span>开发动态：</span>
 					<span style="color:#FF4500;">支付宝打赏功能</span>
+				</p>
+				<p style="font-size:12px;">
+					<span>留言：</span>
+					<span>这个博客真的不错，来借鉴借鉴，加油。</span>
+					<span style="color:white; font-weight:bold; background-color:#66CDAA; padding:2px 5px; border-radius:3px; font-size:12px;">留言板</span>
+
 				</p>
 			</div>
     </div>
